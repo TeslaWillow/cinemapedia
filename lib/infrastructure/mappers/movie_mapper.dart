@@ -8,7 +8,7 @@ class MovieMapper {
       backdropPath: (movieDB.backdropPath != '')
           ? 'https://image.tmdb.org/t/p/w500${movieDB.backdropPath}'
           : 'https://i.stack.imgur.com/GNhxO.png',
-      genreIds: List<String>.from(movieDB.genreIds),
+      genreIds: List<int>.from(movieDB.genreIds),
       id: movieDB.id,
       originalLanguage: movieDB.originalLanguage,
       originalTitle: movieDB.originalTitle,
