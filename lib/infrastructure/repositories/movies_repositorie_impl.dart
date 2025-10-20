@@ -2,7 +2,7 @@ import 'package:cinemapedia/domain/datasources/movies_datasource.dart';
 import 'package:cinemapedia/domain/entities/movie.dart';
 import 'package:cinemapedia/domain/repositories/movies_repositorie.dart';
 
-abstract class MoviesRepositoryImpl implements MoviesRepository {
+class MoviesRepositoryImpl implements MoviesRepository {
 
   final MoviesDatasource datasource;
 
